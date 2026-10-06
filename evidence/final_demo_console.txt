@@ -1,0 +1,6 @@
+ScholarPlan run completed
+Run ID: 1
+Tasks: 3
+Sources: 7
+Verified claims: 14
+Output directory: outputs

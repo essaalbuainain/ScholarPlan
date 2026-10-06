@@ -1,0 +1,22 @@
+[
+  {
+    "id": "RQ1",
+    "query": "What techniques reduce hallucination in LLM-based agents?"
+  },
+  {
+    "id": "RQ2",
+    "query": "How does ReAct support autonomous agent planning?"
+  },
+  {
+    "id": "RQ3",
+    "query": "What are advantages of blackboard architectures for multi-agent systems?"
+  },
+  {
+    "id": "RQ4",
+    "query": "How are sentence embeddings used for semantic search and deduplication?"
+  },
+  {
+    "id": "RQ5",
+    "query": "What are current limitations of LLM planning?"
+  }
+]

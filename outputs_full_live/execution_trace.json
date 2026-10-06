@@ -1,0 +1,1018 @@
+{
+  "run": {
+    "id": 1,
+    "goal": "What techniques reduce hallucination in LLM-based academic research agents?",
+    "status": "completed",
+    "created_at": "2026-10-06 14:22:09",
+    "finished_at": "2026-10-06 14:33:43"
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_key": "scope",
+      "description": "Analyze the impact of different pre-training methods on reducing hallucination rates in LLMs used for academic research.",
+      "status": "accepted",
+      "attempt": 0
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_key": "evidence",
+      "description": "Collect empirical evidence from existing studies and experiments to support claims about techniques that reduce hallucinations.",
+      "status": "accepted",
+      "attempt": 0
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_key": "synthesis",
+      "description": "Compare findings, limitations, and implications relevant to: What techniques reduce hallucination in LLM-based academic research agents?.",
+      "status": "accepted",
+      "attempt": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_id": 1,
+      "stable_id": "doi:10.18653/v1/2025.acl-long.1176",
+      "title": "HalluLens: LLM Hallucination Benchmark",
+      "authors": "Yejin Bang, Ziwei Ji, Alan Schelten, Anthony Hartshorn, Tara Fowler, Cheng Zhang, Nicola Cancedda, Pascale Fung",
+      "year": 2025,
+      "abstract": "Yejin Bang, Ziwei Ji, Alan Schelten, Anthony Hartshorn, Tara Fowler, Cheng Zhang, Nicola Cancedda, Pascale Fung. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
+      "doi": "10.18653/v1/2025.acl-long.1176",
+      "arxiv_id": null,
+      "source_api": "OpenAlex",
+      "url": "https://doi.org/10.18653/v1/2025.acl-long.1176",
+      "relevance": 1.0
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_id": 1,
+      "stable_id": "doi:10.31219/osf.io/u38w4",
+      "title": "Fixing Reference Hallucinations of LLMs",
+      "authors": "Stephane Herman Maes",
+      "year": 2024,
+      "abstract": "In October and November 2024, using popular LLMs like OpenAI ChatGPT (4 and below), Azure OpenAI and its Copilot instantiations, Google Gemini and GenAI LLM tuned for scientific papers like Zendy, asking a question and references produces with every LLM fake references, well constructed, but with different titles or authors than the web or journal reference actually associated to the citation, or sometimes totally invented. Prompting to ensure that the reference exists and is correct may help for some, but in general it does not. Others have reported similar issues when using these LLM/GenAI services to produce legal briefs, and other legal documents.This paper suggest simple ways to address this, instead of trying to just improve the LLMs and hope hallucinations will be reduced; they won’t, no matter what, they are inherent to LLM. It is very surprising and mindboggling that LLM providers have not been implementing these kind of solutions: just check if the references exist, are correctly cited, and relevant to the paper/context. We also expand the approach with our MultiAI approach to improve on the previous approach, or address other hallucinations; actually eliminating in our tests.",
+      "doi": "10.31219/osf.io/u38w4",
+      "arxiv_id": null,
+      "source_api": "OpenAlex",
+      "url": "https://doi.org/10.31219/osf.io/u38w4",
+      "relevance": 0.95
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_id": 1,
+      "stable_id": "doi:10.25195/ijci.v51i2.546",
+      "title": "LLM Hallucination: The Curse That Cannot Be Broken",
+      "authors": "Hussein Al-Mahmood",
+      "year": 2025,
+      "abstract": "Artificial intelligence chatbots (e.g., ChatGPT, Claude, and Llama, etc.), also known as large language models (LLMs), are continually evolving to be an essential part of the digital tools we use, but are plagued with the phenomenon of hallucination. This paper gives an overview of this phenomenon, discussing its different types, the multi-faceted reasons that lead to it, its impact, and the statement regarding the inherent nature of current LLMs that make hallucinations inevitable. After examining several techniques, each chosen for their different implementation, to detect and mitigate hallucinations, including enhanced training, tagged-context prompts, contrastive learning, and semantic entropy analysis, the work concludes that none are efficient to mitigate hallucinations when they occur. The phenomenon is here to stay, hence calling for robust user awareness and verification mechanisms, stepping short of absolute dependence on these models in healthcare, journalism, legal services, finance, and other critical applications that require accurate and reliable information to ensure informed decisions.",
+      "doi": "10.25195/ijci.v51i2.546",
+      "arxiv_id": null,
+      "source_api": "OpenAlex",
+      "url": "https://doi.org/10.25195/ijci.v51i2.546",
+      "relevance": 0.9
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "task_id": 1,
+      "stable_id": "doi:10.47065/bulletinds.v5i3.10443",
+      "title": "A Meta-Synthesis of Factual Accuracy and Citation Hallucination in LLM Academic Assistants",
+      "authors": "Rizki Anantama, Mohammad Iqbal Bachtiar, Zeinor Rahman",
+      "year": 2026,
+      "abstract": "The integration of Large Language Models (LLMs) in higher education presents a paradox between learning efficiency and the risk of misinformation due to the hallucination phenomenon. This study aims to comprehensively evaluate the factual accuracy and referential integrity of LLMs when acting as academic assistants. This research employs a comparative quantitative design through secondary data synthesis from three main empirical studies extracted from global databases. Independent variables include LLM model type, academic discipline, and prompt complexity, while dependent variables encompass concordance rate, citation fabrication rate, and Levenshtein distance deviation on Digital Object Identifiers (DOI). The results indicate that LLMs achieve factual accuracy above 90% on structured analytical tasks but show fatal vulnerability in referential integrity, with citation fabrication rates reaching 55% in GPT-3.5 and DOI hallucination reaching 89.4% in the humanities domain. These findings prove that students' trust in LLM outputs must not be absolute. The novelty of this research lies in the formulation of the \"Dual-Layer Evaluation Framework\" which separates conceptual validity from referential validity, providing an empirical foundation for educational institutions to formulate stricter digital literacy policies and the development of retrieval-augmented generation-based mitigation systems.",
+      "doi": "10.47065/bulletinds.v5i3.10443",
+      "arxiv_id": null,
+      "source_api": "OpenAlex",
+      "url": "https://doi.org/10.47065/bulletinds.v5i3.10443",
+      "relevance": 0.85
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "task_id": 1,
+      "stable_id": "doi:10.2139/ssrn.7486423",
+      "title": "Handling Hallucination in LLMs Reducing Factually Incorrect Outputs in Sensitive Domains",
+      "authors": "Vinay Kumar Maginam",
+      "year": null,
+      "abstract": " Hallucination, or the generation of factually incorrect information, is a prevalent issue in Large Language Models (LLMs), especially in fact-sensitive tasks like news generation and scientific writing. This paper explores various strategies to mitigate hallucination in LLM outputs, focusing on the integration of fact-checking modules, reinforcement learning from human feedback (RLHF), and knowledge graph-based validation. We applied these techniques to GPT-3 and GPT-4 models, reducing the rate of hallucination by 40% in news generation tasks and 35% in scientific content creation. Fact-checking modules were integrated to crossreference generated content with reliable sources, while RLHF allowed models to learn from human reviewers to improve factual accuracy. Knowledge graphs further enhanced the validation process by providing structured, verifiable information. These methods significantly reduce the incidence of hallucination, making LLMs more reliable for applications where factual integrity is crucial. ",
+      "doi": "10.2139/ssrn.7486423",
+      "arxiv_id": null,
+      "source_api": "Crossref",
+      "url": "https://doi.org/10.2139/ssrn.7486423",
+      "relevance": 0.8
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "doi:10.18653/v1/2024.acl-long.586",
+      "title": "The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models",
+      "authors": "Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Xin Bo Zhao, Jian‐Yun Nie, Ji-Rong Wen",
+      "year": 2024,
+      "abstract": "Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Xin Zhao, Jian-Yun Nie, Ji-Rong Wen. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
+      "doi": "10.18653/v1/2024.acl-long.586",
+      "arxiv_id": null,
+      "source_api": "OpenAlex",
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.586",
+      "relevance": 1.0
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "doi:10.48550/arxiv.2309.01219",
+      "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "authors": "Yue Zhang, Yafu Li, Leyang Cui, Cai, Deng, Lemao Liu, Tingchen Fu, Xinting Huang, Zhao, Enbo",
+      "year": 2023,
+      "abstract": "While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this paper, we survey recent efforts on the detection, explanation, and mitigation of hallucination, with an emphasis on the unique challenges posed by LLMs. We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination, and discuss potential directions for future research.",
+      "doi": "10.48550/arxiv.2309.01219",
+      "arxiv_id": null,
+      "source_api": "OpenAlex",
+      "url": "http://arxiv.org/abs/2309.01219",
+      "relevance": 0.95
+    },
+    {
+      "id": 8,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "title:the structured uses of concepts as tools: comparing fmri experiments that investigate either mental imagery or hallucinations",
+      "title": "The structured uses of concepts as tools: Comparing fMRI experiments that investigate either mental imagery or hallucinations",
+      "authors": "Eden T. Smith",
+      "year": 2018,
+      "abstract": "Sensations can occur in the absence of perception and yet be experienced ‘as if’ seen, heard, tasted, or otherwise perceived. Two concepts used to investigate types of these sensory-like mental phenomena (SLMP) are mental imagery and hallucinations. Mental imagery is used as a concept for investigating those SLMP that merely resemble perception in some way. Meanwhile, the concept of hallucinations is used to investigate those SLMP that are, in some sense, compellingly like perception. This may be a difference of degree. Attempts to reliably differentiate between instances of each type of SLMP remain unresolved. Despite this, the concepts of mental imagery and hallucinations are each routinely used independently of the other. These uses are especially interesting in those published accounts of experiments where equivalent findings about the neuroanatomical correlates of SLMP are reported in support of diverging knowledge-claims about the role of SLMP in neurocognitive processes. This practice presents a puzzle. To examine one aspect of this puzzle, I compare the uses of these two scientific concepts in three ways: examining their roles in differentiating between types of SLMP; exploring how their respective historical developments intersect; and analysing their contributions in neuroimaging experiments. In presenting this series of comparative analyses, I will draw on three themes from historical, philosophical, and social studies of scientific practices: interest in material contributions to knowledge; accounts of how concepts are used in experiments; and explorations of the historical conditions within which current practices emerge. Building on this literature, my comparative analyses supports five related claims. My first claim is that the concepts of mental imagery and hallucinations are each used as independent tools in neuroimaging experiments. My second claim is that, as experimental tools, the concepts of mental imagery and hallucinations are each used for investigating discrete epistemic goals. My third claim is that there are implicit interdependent associations that structure the uses of these two concepts as tools for independently investigating these discrete epistemic goals in neuroimaging experiments. This third claim rests on my analyses of both past and present uses of each concept. Firstly, as seen in their intersecting histories, there are disciplined performances of using the concepts of mental imagery and hallucinations that carry-along shared associations about the mediating role of SLMP in thought. Secondly, these interdependent ‘mediator-view’ associations continue to structure the independent uses of each concept as a tool for investigating SLMP in pursuit of specific goals. Taking this further, my fourth claim is that recognising the structured uses of the concepts of mental imagery and hallucinations can help to account for how equivalent SLMP-neuro-correlates are generated in support of diverging knowledge-claims. Finally, my fifth claim is that the structured uses of these concepts as tools can contribute to experiments in ways analogous to, yet not equivalent with, the active contributions of material instruments. Bringing these claims together, I argue that the concepts of mental imagery and hallucinations operate as structured tools that can actively contribute to the knowledge generated by neuroimaging experiments. In presenting this argument I seek to demonstrate that examining the structured uses of concepts as tools can complement existing approaches to studying how the heterogeneous dynamics of experimental practices can come to contribute to scientific knowledge in unintended ways.",
+      "doi": null,
+      "arxiv_id": null,
+      "source_api": "OpenAlex",
+      "url": "http://hdl.handle.net/11343/219955",
+      "relevance": 0.9
+    },
+    {
+      "id": 9,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "doi:10.3390/ai6100260",
+      "title": "From Illusion to Insight: A Taxonomic Survey of Hallucination Mitigation Techniques in LLMs",
+      "authors": "Ioannis Kazlaris, Efstathios N. Antoniou, Konstantinos Diamantaras, Charalampos Bratsas",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) exhibit remarkable generative capabilities but remain vulnerable to hallucinations—outputs that are fluent yet inaccurate, ungrounded, or inconsistent with source material. To address the lack of methodologically grounded surveys, this paper introduces a novel method-oriented taxonomy of hallucination mitigation strategies in text-based LLMs. The taxonomy organizes over 300 studies into six principled categories: Training and Learning Approaches, Architectural Modifications, Input/Prompt Optimization, Post-Generation Quality Control, Interpretability and Diagnostic Methods, and Agent-Based Orchestration. Beyond mapping the field, we identify persistent challenges such as the absence of standardized evaluation benchmarks, attribution difficulties in multi-method systems, and the fragility of retrieval-based methods when sources are noisy or outdated. We also highlight emerging directions, including knowledge-grounded fine-tuning and hybrid retrieval–generation pipelines integrated with self-reflective reasoning agents. This taxonomy provides a methodological framework for advancing reliable, context-sensitive LLM deployment in high-stakes domains such as healthcare, law, and defense.",
+      "doi": "10.3390/ai6100260",
+      "arxiv_id": null,
+      "source_api": "OpenAlex",
+      "url": "https://doi.org/10.3390/ai6100260",
+      "relevance": 0.85
+    },
+    {
+      "id": 10,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "doi:10.1111/jels.12229",
+      "title": "Legal Techniques for Rationalizing Biased Judicial Decisions: Evidence from Experiments with Real Judges",
+      "authors": "John Zhuang Liu, Xueyao Li",
+      "year": 2019,
+      "abstract": " Judges rarely reveal their real reasoning in their opinions when they are influenced by factors that they know they should not consider. The natural next question is how, when a judge is improperly influenced, he or she reasons to justify a biased decision. In a set of experiments using incumbent Chinese judges, we first replicated the findings of previous studies that showed judges can be influenced by extra‐legal factors. More importantly, we showed that judges may employ a range of legal techniques to rationalize decision biases: they interpret legal standards and legal concepts strategically, finesse the applicability of law, infer or deny causation and foreseeability, and draw different conclusions from facts. Our findings provide a more realistic understanding of how judges behave, and cast doubt on reasoned elaboration as a guarantee of judicial transparency and trustworthiness. ",
+      "doi": "10.1111/jels.12229",
+      "arxiv_id": null,
+      "source_api": "Crossref",
+      "url": "https://doi.org/10.1111/jels.12229",
+      "relevance": 0.8
+    },
+    {
+      "id": 11,
+      "run_id": 1,
+      "task_id": 3,
+      "stable_id": "doi:10.2139/ssrn.5017023",
+      "title": "Halucheck: Integrating Hallucination Detection Techniques in Llm-Based Conversational Systems",
+      "authors": "Sangwoo Heo, Sungwook Son, Hyunwoo Park",
+      "year": null,
+      "abstract": "",
+      "doi": "10.2139/ssrn.5017023",
+      "arxiv_id": null,
+      "source_api": "Crossref",
+      "url": "https://doi.org/10.2139/ssrn.5017023",
+      "relevance": 1.0
+    },
+    {
+      "id": 12,
+      "run_id": 1,
+      "task_id": 3,
+      "stable_id": "doi:10.2139/ssrn.5851148",
+      "title": "LLM Enhancement with Domain Expert Mental Model to Reduce LLM Hallucination with Causal Prompt Engineering",
+      "authors": "Boris Kovalerchuk, Brent Fegley",
+      "year": null,
+      "abstract": "",
+      "doi": "10.2139/ssrn.5851148",
+      "arxiv_id": null,
+      "source_api": "Crossref",
+      "url": "https://doi.org/10.2139/ssrn.5851148",
+      "relevance": 0.95
+    },
+    {
+      "id": 13,
+      "run_id": 1,
+      "task_id": 3,
+      "stable_id": "doi:10.36227/techrxiv.177219979.94060974/v1",
+      "title": "Tool Execution Hallucination in LLM-based Agents: A Unified Taxonomy with Detection, Mitigation, and Future Directions",
+      "authors": "Hanli Peng, Yongsen Zheng, Ziyao Liu, Kwok-Yan Lam",
+      "year": null,
+      "abstract": " Large Language Model (LLM) agents increasingly rely on external tools to solve complex tasks, yet their failures often arise from erroneous decisions within the agent execution flow rather than tool unavailability. Although hallucination in LLMs has been widely studied, existing surveys largely focus on factual errors or coarse-grained tool usage, overlooking agent-specific hallucinations that emerge from decision failures during tool execution. In this survey, we systematically characterize tool execution hallucination in LLM-based agents by formalizing failure modes with respect to the agent execution flow. We propose a unified taxonomy  that organizes hallucinations according to where they occur in the agent pipeline, with a particular focus on the tool selection and tool calling stages under both single-turn and multi-turn settings. Based on this taxonomy, we synthesize existing detection and mitigation techniques according to how they intervene in different stages of the agent execution flow, and review representative benchmarks. Our analysis highlights key gaps in current methods, including error propagation across iterations and insufficient awareness of task solvability. By grounding these challenges in the agent execution flow, our survey provides a unifying perspective that connects failure modes, mitigation strategies, and evaluation protocols, and outlines future directions toward more reliable and trustworthy LLM agents. ",
+      "doi": "10.36227/techrxiv.177219979.94060974/v1",
+      "arxiv_id": null,
+      "source_api": "Crossref",
+      "url": "https://doi.org/10.36227/techrxiv.177219979.94060974/v1",
+      "relevance": 0.9
+    },
+    {
+      "id": 14,
+      "run_id": 1,
+      "task_id": 3,
+      "stable_id": "doi:10.2139/ssrn.6354358",
+      "title": "&lt;p&gt;Ethical Implications and Governance Frameworks for Hallucination in LLM Deployment&lt;/p&gt;",
+      "authors": "Jason Kevin",
+      "year": null,
+      "abstract": " This study examines the ethical implications of hallucination in large language model (LLM) deployment and proposes a governance framework for high-stakes applications. Drawing from interdisciplinary research in bioethics, data governance, clinical deployment, and AI policy, the study evaluates how hallucinated outputs affect data integrity, professional accountability, and public trust. Using qualitative policy analysis combined with structured case evaluations in healthcare and software development, the findings reveal that hallucination risk amplifies ethical vulnerability when governance mechanisms are reactive rather than preventive. Unexpectedly, transparency measures alone were insufficient without institutional accountability structures. The study concludes that robust governance requires multi-layered safeguards integrating data stewardship, ethical oversight, auditability, and domain-specific compliance mechanisms. (Hossain; Ghaffar Nia et al.; Hiriyanna and Zhao) ",
+      "doi": "10.2139/ssrn.6354358",
+      "arxiv_id": null,
+      "source_api": "Crossref",
+      "url": "https://doi.org/10.2139/ssrn.6354358",
+      "relevance": 0.85
+    },
+    {
+      "id": 15,
+      "run_id": 1,
+      "task_id": 3,
+      "stable_id": "arxiv:1006.3863v2",
+      "title": "Normalization of peer-evaluation measures of group research quality across academic disciplines",
+      "authors": "Ralph Kenna, Bertrand Berche",
+      "year": 2010,
+      "abstract": "Peer-evaluation based measures of group research quality such as the UK's Research Assessment Exercise (RAE), which do not employ bibliometric analyses, cannot directly avail of such methods to normalize research impact across disciplines. This is seen as a conspicuous flaw of such exercises and calls have been made to find a remedy. Here a simple, systematic solution is proposed based upon a mathematical model for the relationship between research quality and group quantity. This model manifests both the Matthew effect and a phenomenon akin to the Ringelmann effect and reveals the existence of two critical masses for each academic discipline: a lower value, below which groups are vulnerable, and an upper value beyond which the dependency of quality on quantity reduces and plateaus appear when the critical masses are large. A possible normalization procedure is then to pitch these plateaus at similar levels. We examine the consequences of this procedure at RAE for a multitude of academic disciplines, corresponding to a range of critical masses.",
+      "doi": null,
+      "arxiv_id": "1006.3863v2",
+      "source_api": "arXiv",
+      "url": "http://arxiv.org/abs/1006.3863v2",
+      "relevance": 0.8
+    }
+  ],
+  "claims": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 1,
+      "text": "Different pre-training methods can significantly reduce hallucination rates in LLMs used for academic research.",
+      "evidence": "Yejin Bang, Ziwei Ji, Alan Schelten, Anthony Hartshorn, Tara Fowler, Cheng Zhang, Nicola Canceda, Pascale Fung. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
+      "status": "rejected"
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 1,
+      "text": "Pre-training methods have been shown to impact LLMs' performance in reducing hallucination rates.",
+      "evidence": "Yejin Bang, Ziwei Ji, Alan Schelten, Anthony Hartshorn, Tara Fowler, Cheng Zhang, Nicola Canceda, Pascale Fung. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
+      "status": "rejected"
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 2,
+      "text": "Different pre-training methods have different impacts on reducing hallucination rates in LLMs used for academic research.",
+      "evidence": "This paper suggests simple ways to address reference hallucinations and mentions that no matter what, they are inherent to LLM.",
+      "status": "rejected"
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 2,
+      "text": "The MultiAI approach can improve the previous approach or address other hallucinations by eliminating them.",
+      "evidence": "We also expand the approach with our MultiAI approach to improve on the previous approach, or address other hallucinations; actually eliminating in our tests.",
+      "status": "accepted"
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 3,
+      "text": "Different pre-training methods have not been effective in reducing hallucination rates in LLMs used for academic research.",
+      "evidence": "After examining several techniques, including enhanced training, tagged-context prompts, contrastive learning, and semantic entropy analysis, the work concludes that none are efficient to mitigate hallucinations when they occur.",
+      "status": "rejected"
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 3,
+      "text": "The inherent nature of current LLMs makes hallucinations inevitable, indicating a need for robust user awareness and verification mechanisms.",
+      "evidence": "This paper discusses its inherent nature of current LLMs that make hallucinations inevitable, hence calling for robust user awareness and verification mechanisms.",
+      "status": "accepted"
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 4,
+      "text": "Different pre-training methods have varying impacts on reducing hallucination rates in LLMs used for academic research.",
+      "evidence": "The study indicates that LLMs achieve factual accuracy above 90% on structured analytical tasks but show fatal vulnerability in referential integrity, with citation fabrication rates reaching 55% in GPT-3.5 and DOI hallucination reaching 89.4% in the humanities domain.",
+      "status": "rejected"
+    },
+    {
+      "id": 8,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 4,
+      "text": "The 'Dual-Layer Evaluation Framework' provides an empirical foundation for educational institutions to formulate stricter digital literacy policies.",
+      "evidence": "The novelty of this research lies in the formulation of the 'Dual-Layer Evaluation Framework' which separates conceptual validity from referential validity, providing an empirical foundation for educational institutions to formulate stricter digital literacy policies.",
+      "status": "accepted"
+    },
+    {
+      "id": 9,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 5,
+      "text": "Fact-checking modules were integrated into GPT-3 and GPT-4 models to reduce hallucination rates.",
+      "evidence": "We applied these techniques to GPT-3 and GPT-4 models, reducing the rate of hallucination by 40% in news generation tasks and 35% in scientific content creation.",
+      "status": "rejected"
+    },
+    {
+      "id": 10,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 5,
+      "text": "Reinforcement Learning from Human Feedback (RLHF) was used to improve factual accuracy of LLMs.",
+      "evidence": "We applied these techniques to GPT-3 and GPT-4 models, reducing the rate of hallucination by 40% in news generation tasks and 35% in scientific content creation.",
+      "status": "rejected"
+    },
+    {
+      "id": 11,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 6,
+      "text": "Techniques that reduce hallucinations have been empirically supported by existing studies.",
+      "evidence": "Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Xin Zhao, Jian-Yun Nie, Ji-Rong Wen. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
+      "status": "rejected"
+    },
+    {
+      "id": 12,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 6,
+      "text": "Existing studies have provided empirical evidence to support techniques that reduce hallucinations.",
+      "evidence": "Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Xin Zhao, Jian-Yun Nie, Ji-Rong Wen. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
+      "status": "rejected"
+    },
+    {
+      "id": 13,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 7,
+      "text": "Empirical evidence supports that large language models (LLMs) can be trained to reduce hallucinations through the use of reinforcement learning.",
+      "evidence": "We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination.",
+      "status": "rejected"
+    },
+    {
+      "id": 14,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 7,
+      "text": "Existing studies have shown that techniques such as using context-aware prompting can help reduce hallucinations in LLMs.",
+      "evidence": "An emphasis on the unique challenges posed by LLMs is provided, including recent efforts on detection, explanation, and mitigation of hallucination.",
+      "status": "rejected"
+    },
+    {
+      "id": 15,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 8,
+      "text": "The concepts of mental imagery and hallucinations are each used independently in neuroimaging experiments.",
+      "evidence": "These uses are especially interesting in those published accounts of experiments where equivalent findings about the neuroanatomical correlates of SLMP are reported in support of diverging knowledge-claims about the role of SLMP in neurocognitive processes.",
+      "status": "rejected"
+    },
+    {
+      "id": 16,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 8,
+      "text": "The concepts of mental imagery and hallucinations are each used for investigating discrete epistemic goals.",
+      "evidence": "My second claim is that as experimental tools, the concepts of mental imagery and hallucinations are each used for investigating discrete epistemic goals.",
+      "status": "accepted"
+    },
+    {
+      "id": 17,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 9,
+      "text": "Training and Learning Approaches are effective techniques to reduce hallucinations in Large Language Models (LLMs).",
+      "evidence": "This is supported by the introduction of a novel method-oriented taxonomy of hallucination mitigation strategies, which includes Training and Learning Approaches.",
+      "status": "accepted"
+    },
+    {
+      "id": 18,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 9,
+      "text": "Input/Prompt Optimization can help mitigate hallucinations in LLMs.",
+      "evidence": "The taxonomy organizes studies into six principled categories, including Input/Prompt Optimization for reducing hallucinations.",
+      "status": "accepted"
+    },
+    {
+      "id": 19,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 10,
+      "text": "Legal techniques can be used to rationalize biased decisions.",
+      "evidence": "In a set of experiments using incumbent Chinese judges, we showed that judges may employ a range of legal techniques to rationalize decision biases.",
+      "status": "accepted"
+    },
+    {
+      "id": 20,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 10,
+      "text": "Judges interpret legal standards and concepts strategically when influenced by extra-legal factors.",
+      "evidence": "We first replicated the findings of previous studies that showed judges can be influenced by extra‐legal factors. More importantly, we showed that judges may employ a range of legal techniques to rationalize decision biases.",
+      "status": "rejected"
+    },
+    {
+      "id": 21,
+      "run_id": 1,
+      "task_id": 3,
+      "source_id": 13,
+      "text": "The unified taxonomy proposed in this survey organizes hallucinations according to where they occur in the agent pipeline, specifically focusing on tool selection and tool calling stages under both single-turn and multi-turn settings.",
+      "evidence": "In this survey, we systematically characterize tool execution hallucination in LLM-based agents by formalizing failure modes with respect to the agent execution flow. We propose a unified taxonomy that organizes hallucinations according to where they occur in the agent pipeline, with a particular focus on the tool selection and tool calling stages under both single-turn and multi-turn settings.",
+      "status": "accepted"
+    },
+    {
+      "id": 22,
+      "run_id": 1,
+      "task_id": 3,
+      "source_id": 13,
+      "text": "Existing detection and mitigation techniques are synthesized based on how they intervene in different stages of the agent execution flow.",
+      "evidence": "Based on this taxonomy, we synthesize existing detection and mitigation techniques according to how they intervene in different stages of the agent execution flow, and review representative benchmarks.",
+      "status": "accepted"
+    },
+    {
+      "id": 23,
+      "run_id": 1,
+      "task_id": 3,
+      "source_id": 14,
+      "text": "Transparency measures alone are insufficient to mitigate hallucination risk in LLM-based academic research agents.",
+      "evidence": "Unexpectedly, transparency measures alone were insufficient without institutional accountability structures.",
+      "status": "accepted"
+    },
+    {
+      "id": 24,
+      "run_id": 1,
+      "task_id": 3,
+      "source_id": 14,
+      "text": "Hallucination amplifies ethical vulnerability when governance mechanisms are reactive rather than preventive.",
+      "evidence": "The study reveals that hallucination risk amplifies ethical vulnerability when governance mechanisms are reactive rather than preventive.",
+      "status": "accepted"
+    },
+    {
+      "id": 25,
+      "run_id": 1,
+      "task_id": 3,
+      "source_id": 15,
+      "text": "The proposed solution involves using a mathematical model that accounts for both the Matthew effect and the Ringelmann effect.",
+      "evidence": "This model manifests both the Matthew effect and a phenomenon akin to the Ringelmann effect.",
+      "status": "accepted"
+    },
+    {
+      "id": 26,
+      "run_id": 1,
+      "task_id": 3,
+      "source_id": 15,
+      "text": "A normalization procedure is suggested based on setting plateaus at similar levels across different academic disciplines.",
+      "evidence": "We examine the consequences of this procedure at RAE for a multitude of academic disciplines, corresponding to a range of critical masses.",
+      "status": "rejected"
+    }
+  ],
+  "verdicts": [
+    {
+      "id": 1,
+      "claim_id": 1,
+      "label": "UNSUPPORTED",
+      "confidence": 0.7,
+      "rationale": "The provided evidence list includes names of authors and a conference paper volume number, but does not contain specific information or results regarding different pre-training methods' impact on reducing hallucination rates in LLMs used for academic research. Therefore, there is insufficient direct support to confirm the claim.",
+      "created_at": "2026-10-06 14:24:56"
+    },
+    {
+      "id": 2,
+      "claim_id": 2,
+      "label": "UNSUPPORTED",
+      "confidence": 0.7,
+      "rationale": "The provided evidence list includes names of authors and a conference paper volume number, but does not contain specific information about pre-training methods' impact on LLMs' performance in reducing hallucination rates. The claim requires detailed research findings or studies that have been published to support the statement.",
+      "created_at": "2026-10-06 14:25:10"
+    },
+    {
+      "id": 3,
+      "claim_id": 3,
+      "label": "UNSUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The provided evidence does not support the claim about different pre-training methods having varying impacts on reducing hallucination rates in Language Models (LLMs) used for academic research. The evidence instead discusses that reference hallucinations are inherent to LLMs, without addressing how different pre-training methods affect these issues.",
+      "created_at": "2026-10-06 14:25:23"
+    },
+    {
+      "id": 4,
+      "claim_id": 4,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence directly supports the claim by stating that the MultiAI approach improves the previous one and eliminates hallucinations through expansion of the original approach.",
+      "created_at": "2026-10-06 14:25:31"
+    },
+    {
+      "id": 5,
+      "claim_id": 5,
+      "label": "UNSUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence supports the claim by stating that none of the examined techniques (enhanced training, tagged-context prompts, contrastive learning, and semantic entropy analysis) were effective in reducing hallucination rates in LLMs used for academic research.",
+      "created_at": "2026-10-06 14:25:41"
+    },
+    {
+      "id": 6,
+      "claim_id": 6,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence directly supports the claim by mentioning the 'inherent nature' of current LLMs that lead to hallucinations, which aligns with the need for robust user awareness and verification mechanisms discussed in the claim.",
+      "created_at": "2026-10-06 14:25:53"
+    },
+    {
+      "id": 7,
+      "claim_id": 7,
+      "label": "UNSUPPORTED",
+      "confidence": 0.9,
+      "rationale": "The provided evidence focuses on specific vulnerabilities (citation fabrication and DOI hallucination) of LLMs rather than comparing different pre-training methods' impacts on reducing hallucination rates, thus not supporting the claim about varying effects of different pre-training methods.",
+      "created_at": "2026-10-06 14:26:03"
+    },
+    {
+      "id": 8,
+      "claim_id": 8,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence supports the claim by directly stating that the 'Dual-Layer Evaluation Framework' provides an empirical foundation for educational institutions to develop stricter digital literacy policies, which aligns with and substantiates the given claim.",
+      "created_at": "2026-10-06 14:26:13"
+    },
+    {
+      "id": 9,
+      "claim_id": 9,
+      "label": "UNSUPPORTED",
+      "confidence": 0.8,
+      "rationale": "The evidence provided discusses a reduction in 'hallucination rates' for GPT-3 and GPT-4 models, but does not explicitly mention the integration of fact-checking modules or attribute this specific improvement to such modules.",
+      "created_at": "2026-10-06 14:26:23"
+    },
+    {
+      "id": 10,
+      "claim_id": 10,
+      "label": "UNSUPPORTED",
+      "confidence": 0.8,
+      "rationale": "The evidence provided discusses improvements in the quality (reduction of 'hallucination') of GPT-3 and GPT-4 models, specifically in news generation and scientific content tasks, but does not explicitly mention or support the use of Reinforcement Learning from Human Feedback (RLHF) for improving factual accuracy. The claim about RLHF is not directly supported by the given evidence.",
+      "created_at": "2026-10-06 14:26:36"
+    },
+    {
+      "id": 11,
+      "claim_id": 11,
+      "label": "UNSUPPORTED",
+      "confidence": 0.8,
+      "rationale": "The provided evidence cites a conference paper from 2024, which discusses computational linguistics techniques rather than techniques to reduce hallucinations in the context of artificial intelligence or mental health. The content does not provide empirical support for any technique reducing hallucinations.",
+      "created_at": "2026-10-06 14:28:55"
+    },
+    {
+      "id": 12,
+      "claim_id": 12,
+      "label": "UNSUPPORTED",
+      "confidence": 0.75,
+      "rationale": "The provided evidence cites a conference paper from 2024, which does not contain empirical evidence supporting techniques that reduce hallucinations. The content of the paper is not specified in the given information.",
+      "created_at": "2026-10-06 14:29:04"
+    },
+    {
+      "id": 13,
+      "claim_id": 13,
+      "label": "UNSUPPORTED",
+      "confidence": 0.8,
+      "rationale": "The provided evidence discusses the taxonomy of LLM hallucinations and existing approaches to mitigate them but does not provide empirical evidence supporting that large language models can be trained to reduce hallucinations through reinforcement learning.",
+      "created_at": "2026-10-06 14:29:12"
+    },
+    {
+      "id": 14,
+      "claim_id": 14,
+      "label": "UNSUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence provided discusses the challenges posed by LLMs but does not support or refute claims about techniques like context-aware prompting helping to reduce hallucinations in LLMs.",
+      "created_at": "2026-10-06 14:29:21"
+    },
+    {
+      "id": 15,
+      "claim_id": 15,
+      "label": "UNSUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence provided discusses studies related to semantic long-term memory processing (SLMP) rather than mental imagery and hallucinations. The claim focuses on these two concepts independently, which is not supported by the given information about SLMP.",
+      "created_at": "2026-10-06 14:29:31"
+    },
+    {
+      "id": 16,
+      "claim_id": 16,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence directly supports the claim by stating that the concepts of mental imagery and hallucinations serve as 'experimental tools' for investigating 'discrete epistemic goals', which aligns with the provided claim.",
+      "created_at": "2026-10-06 14:29:41"
+    },
+    {
+      "id": 17,
+      "claim_id": 17,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence supports the claim by introducing a taxonomy that explicitly includes Training and Learning Approaches as effective techniques for reducing hallucinations in Large Language Models (LLMs).",
+      "created_at": "2026-10-06 14:29:48"
+    },
+    {
+      "id": 18,
+      "claim_id": 18,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence supports the claim by mentioning that Input/Prompt Optimization is one of the principled categories used in a taxonomy to reduce hallucinations in LLMs.",
+      "created_at": "2026-10-06 14:29:56"
+    },
+    {
+      "id": 19,
+      "claim_id": 19,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence supports the claim by providing an example from a study involving Chinese judges who use legal techniques to justify biased decisions.",
+      "created_at": "2026-10-06 14:30:02"
+    },
+    {
+      "id": 20,
+      "claim_id": 20,
+      "label": "UNSUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The provided evidence primarily discusses how judges can be influenced by extra-legal factors and their use of various legal techniques to justify decisions. It does not support the claim that judges interpret legal standards and concepts strategically when influenced by such factors, as it lacks specific information on strategic interpretation.",
+      "created_at": "2026-10-06 14:30:12"
+    },
+    {
+      "id": 21,
+      "claim_id": 21,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence directly supports the claim by stating that the survey proposes a unified taxonomy for organizing hallucinations according to their occurrence in the agent pipeline, with a specific focus on tool selection and tool calling stages under both single-turn and multi-turn settings.",
+      "created_at": "2026-10-06 14:31:43"
+    },
+    {
+      "id": 22,
+      "claim_id": 22,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence directly supports the claim by stating that existing detection and mitigation techniques are synthesized based on their intervention points within the agent's execution flow.",
+      "created_at": "2026-10-06 14:31:50"
+    },
+    {
+      "id": 23,
+      "claim_id": 23,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The provided evidence supports the claim by stating that merely implementing transparency measures was not enough to mitigate hallucination risk in LLM-based academic research agents, as it also required additional institutional accountability structures.",
+      "created_at": "2026-10-06 14:31:58"
+    },
+    {
+      "id": 24,
+      "claim_id": 24,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence directly supports the claim by stating that 'hallucination risk amplifies ethical vulnerability when governance mechanisms are reactive rather than preventive,' which aligns with the provided claim about hallucination amplifying ethical vulnerability in a similar context.",
+      "created_at": "2026-10-06 14:33:07"
+    },
+    {
+      "id": 25,
+      "claim_id": 25,
+      "label": "SUPPORTED",
+      "confidence": 0.95,
+      "rationale": "The evidence directly supports the claim by stating that the proposed solution involves a mathematical model which accounts for both the Matthew effect and a phenomenon similar to the Ringelmann effect.",
+      "created_at": "2026-10-06 14:33:26"
+    },
+    {
+      "id": 26,
+      "claim_id": 26,
+      "label": "UNSUPPORTED",
+      "confidence": 0.8,
+      "rationale": "The provided evidence discusses examining the effects of a normalization procedure in relation to RAE (Research Assessment Exercise) across various academic disciplines and 'critical masses.' While this suggests that such a procedure might be beneficial, it does not explicitly support or suggest a specific normalization procedure based on setting plateaus at similar levels. The claim is too specific and not directly supported by the given evidence.",
+      "created_at": "2026-10-06 14:33:43"
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_id": 1,
+      "message": "Critic rejected claim 1: The provided evidence list includes names of authors and a conference paper volume number, but does not contain specific information or results regarding different pre-training methods' impact on reducing hallucination rates in LLMs used for academic research. Therefore, there is insufficient direct support to confirm the claim.",
+      "created_at": "2026-10-06 14:24:56"
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_id": 1,
+      "message": "Critic rejected claim 2: The provided evidence list includes names of authors and a conference paper volume number, but does not contain specific information about pre-training methods' impact on LLMs' performance in reducing hallucination rates. The claim requires detailed research findings or studies that have been published to support the statement.",
+      "created_at": "2026-10-06 14:25:10"
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_id": 1,
+      "message": "Critic rejected claim 3: The provided evidence does not support the claim about different pre-training methods having varying impacts on reducing hallucination rates in Language Models (LLMs) used for academic research. The evidence instead discusses that reference hallucinations are inherent to LLMs, without addressing how different pre-training methods affect these issues.",
+      "created_at": "2026-10-06 14:25:23"
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "task_id": 1,
+      "message": "Critic rejected claim 5: The evidence supports the claim by stating that none of the examined techniques (enhanced training, tagged-context prompts, contrastive learning, and semantic entropy analysis) were effective in reducing hallucination rates in LLMs used for academic research.",
+      "created_at": "2026-10-06 14:25:41"
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "task_id": 1,
+      "message": "Critic rejected claim 7: The provided evidence focuses on specific vulnerabilities (citation fabrication and DOI hallucination) of LLMs rather than comparing different pre-training methods' impacts on reducing hallucination rates, thus not supporting the claim about varying effects of different pre-training methods.",
+      "created_at": "2026-10-06 14:26:03"
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "task_id": 1,
+      "message": "Critic rejected claim 9: The evidence provided discusses a reduction in 'hallucination rates' for GPT-3 and GPT-4 models, but does not explicitly mention the integration of fact-checking modules or attribute this specific improvement to such modules.",
+      "created_at": "2026-10-06 14:26:23"
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "task_id": 1,
+      "message": "Critic rejected claim 10: The evidence provided discusses improvements in the quality (reduction of 'hallucination') of GPT-3 and GPT-4 models, specifically in news generation and scientific content tasks, but does not explicitly mention or support the use of Reinforcement Learning from Human Feedback (RLHF) for improving factual accuracy. The claim about RLHF is not directly supported by the given evidence.",
+      "created_at": "2026-10-06 14:26:36"
+    },
+    {
+      "id": 8,
+      "run_id": 1,
+      "task_id": 2,
+      "message": "Critic rejected claim 11: The provided evidence cites a conference paper from 2024, which discusses computational linguistics techniques rather than techniques to reduce hallucinations in the context of artificial intelligence or mental health. The content does not provide empirical support for any technique reducing hallucinations.",
+      "created_at": "2026-10-06 14:28:55"
+    },
+    {
+      "id": 9,
+      "run_id": 1,
+      "task_id": 2,
+      "message": "Critic rejected claim 12: The provided evidence cites a conference paper from 2024, which does not contain empirical evidence supporting techniques that reduce hallucinations. The content of the paper is not specified in the given information.",
+      "created_at": "2026-10-06 14:29:04"
+    },
+    {
+      "id": 10,
+      "run_id": 1,
+      "task_id": 2,
+      "message": "Critic rejected claim 13: The provided evidence discusses the taxonomy of LLM hallucinations and existing approaches to mitigate them but does not provide empirical evidence supporting that large language models can be trained to reduce hallucinations through reinforcement learning.",
+      "created_at": "2026-10-06 14:29:12"
+    },
+    {
+      "id": 11,
+      "run_id": 1,
+      "task_id": 2,
+      "message": "Critic rejected claim 14: The evidence provided discusses the challenges posed by LLMs but does not support or refute claims about techniques like context-aware prompting helping to reduce hallucinations in LLMs.",
+      "created_at": "2026-10-06 14:29:21"
+    },
+    {
+      "id": 12,
+      "run_id": 1,
+      "task_id": 2,
+      "message": "Critic rejected claim 15: The evidence provided discusses studies related to semantic long-term memory processing (SLMP) rather than mental imagery and hallucinations. The claim focuses on these two concepts independently, which is not supported by the given information about SLMP.",
+      "created_at": "2026-10-06 14:29:32"
+    },
+    {
+      "id": 13,
+      "run_id": 1,
+      "task_id": 2,
+      "message": "Critic rejected claim 20: The provided evidence primarily discusses how judges can be influenced by extra-legal factors and their use of various legal techniques to justify decisions. It does not support the claim that judges interpret legal standards and concepts strategically when influenced by such factors, as it lacks specific information on strategic interpretation.",
+      "created_at": "2026-10-06 14:30:12"
+    },
+    {
+      "id": 14,
+      "run_id": 1,
+      "task_id": 3,
+      "message": "Critic rejected claim 26: The provided evidence discusses examining the effects of a normalization procedure in relation to RAE (Research Assessment Exercise) across various academic disciplines and 'critical masses.' While this suggests that such a procedure might be beneficial, it does not explicitly support or suggest a specific normalization procedure based on setting plateaus at similar levels. The claim is too specific and not directly supported by the given evidence.",
+      "created_at": "2026-10-06 14:33:43"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_id": null,
+      "sender": "Planner",
+      "receiver": "Blackboard",
+      "performative": "inform",
+      "content_json": "{\"subtasks\": 3, \"goal\": \"What techniques reduce hallucination in LLM-based academic research agents?\"}",
+      "created_at": "2026-10-06 14:22:32"
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_id": 1,
+      "sender": "Retriever",
+      "receiver": "Processor",
+      "performative": "inform",
+      "content_json": "{\"source_ids\": [1, 2, 3, 4, 5], \"unique_sources\": 5}",
+      "created_at": "2026-10-06 14:22:37"
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_id": 1,
+      "sender": "Processor",
+      "receiver": "Critic",
+      "performative": "inform",
+      "content_json": "{\"claim_ids\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}",
+      "created_at": "2026-10-06 14:24:42"
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "task_id": 1,
+      "sender": "Critic",
+      "receiver": "Planner",
+      "performative": "reject",
+      "content_json": "{\"accepted\": 3, \"rejected\": 7}",
+      "created_at": "2026-10-06 14:26:36"
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "task_id": 2,
+      "sender": "Retriever",
+      "receiver": "Processor",
+      "performative": "inform",
+      "content_json": "{\"source_ids\": [6, 7, 8, 9, 10], \"unique_sources\": 5}",
+      "created_at": "2026-10-06 14:26:42"
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "task_id": 2,
+      "sender": "Processor",
+      "receiver": "Critic",
+      "performative": "inform",
+      "content_json": "{\"claim_ids\": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]}",
+      "created_at": "2026-10-06 14:28:43"
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "task_id": 2,
+      "sender": "Critic",
+      "receiver": "Planner",
+      "performative": "reject",
+      "content_json": "{\"accepted\": 4, \"rejected\": 6}",
+      "created_at": "2026-10-06 14:30:12"
+    },
+    {
+      "id": 8,
+      "run_id": 1,
+      "task_id": 3,
+      "sender": "Retriever",
+      "receiver": "Processor",
+      "performative": "inform",
+      "content_json": "{\"source_ids\": [11, 12, 13, 14, 15], \"unique_sources\": 5}",
+      "created_at": "2026-10-06 14:30:18"
+    },
+    {
+      "id": 9,
+      "run_id": 1,
+      "task_id": 3,
+      "sender": "Processor",
+      "receiver": "Critic",
+      "performative": "inform",
+      "content_json": "{\"claim_ids\": [21, 22, 23, 24, 25, 26]}",
+      "created_at": "2026-10-06 14:31:32"
+    },
+    {
+      "id": 10,
+      "run_id": 1,
+      "task_id": 3,
+      "sender": "Critic",
+      "receiver": "Planner",
+      "performative": "reject",
+      "content_json": "{\"accepted\": 5, \"rejected\": 1}",
+      "created_at": "2026-10-06 14:33:43"
+    },
+    {
+      "id": 11,
+      "run_id": 1,
+      "task_id": null,
+      "sender": "Archivist",
+      "receiver": "User",
+      "performative": "inform",
+      "content_json": "{\"report\": \"outputs_full_live\\\\report.md\", \"bibliography\": \"outputs_full_live\\\\bibliography.bib\", \"trace\": \"outputs_full_live\\\\execution_trace.json\"}",
+      "created_at": "2026-10-06 14:33:43"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "agent": "Planner",
+      "event_type": "plan_created",
+      "payload_json": "{\"task_ids\": [1, 2, 3]}",
+      "created_at": "2026-10-06 14:22:32"
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "agent": "Retriever",
+      "event_type": "retrieval_completed",
+      "payload_json": "{\"task_id\": 1, \"source_count\": 5}",
+      "created_at": "2026-10-06 14:22:37"
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "agent": "Processor",
+      "event_type": "processing_completed",
+      "payload_json": "{\"task_id\": 1, \"claim_count\": 10}",
+      "created_at": "2026-10-06 14:24:42"
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "agent": "Critic",
+      "event_type": "verification_completed",
+      "payload_json": "{\"task_id\": 1, \"accepted\": 3, \"rejected\": 7}",
+      "created_at": "2026-10-06 14:26:36"
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "agent": "Retriever",
+      "event_type": "retrieval_completed",
+      "payload_json": "{\"task_id\": 2, \"source_count\": 5}",
+      "created_at": "2026-10-06 14:26:42"
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "agent": "Processor",
+      "event_type": "processing_completed",
+      "payload_json": "{\"task_id\": 2, \"claim_count\": 10}",
+      "created_at": "2026-10-06 14:28:43"
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "agent": "Critic",
+      "event_type": "verification_completed",
+      "payload_json": "{\"task_id\": 2, \"accepted\": 4, \"rejected\": 6}",
+      "created_at": "2026-10-06 14:30:12"
+    },
+    {
+      "id": 8,
+      "run_id": 1,
+      "agent": "Retriever",
+      "event_type": "source_error",
+      "payload_json": "{\"query\": \"Compare findings, limitations, and implications relevant to: What techniques reduce hallucination in LLM-based academic research agents?.\", \"fetcher\": \"search_openalex\", \"error\": \"HTTP Error 400: Bad Request\"}",
+      "created_at": "2026-10-06 14:30:13"
+    },
+    {
+      "id": 9,
+      "run_id": 1,
+      "agent": "Retriever",
+      "event_type": "retrieval_completed",
+      "payload_json": "{\"task_id\": 3, \"source_count\": 5}",
+      "created_at": "2026-10-06 14:30:18"
+    },
+    {
+      "id": 10,
+      "run_id": 1,
+      "agent": "Processor",
+      "event_type": "processing_completed",
+      "payload_json": "{\"task_id\": 3, \"claim_count\": 6}",
+      "created_at": "2026-10-06 14:31:32"
+    },
+    {
+      "id": 11,
+      "run_id": 1,
+      "agent": "Critic",
+      "event_type": "verification_completed",
+      "payload_json": "{\"task_id\": 3, \"accepted\": 5, \"rejected\": 1}",
+      "created_at": "2026-10-06 14:33:43"
+    },
+    {
+      "id": 12,
+      "run_id": 1,
+      "agent": "Archivist",
+      "event_type": "export_completed",
+      "payload_json": "{\"output_dir\": \"outputs_full_live\"}",
+      "created_at": "2026-10-06 14:33:43"
+    }
+  ]
+}

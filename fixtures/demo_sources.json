@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP",
+    "authors": "Lewis et al.",
+    "year": 2020,
+    "abstract": "Retrieval-augmented generation combines parametric language models with retrieved external evidence. Grounding generation in retrieved documents can improve factuality and knowledge-intensive task performance.",
+    "doi": null,
+    "arxiv_id": "2005.11401",
+    "source_api": "Fixture",
+    "url": "https://arxiv.org/abs/2005.11401"
+  },
+  {
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "authors": "Yao et al.",
+    "year": 2023,
+    "abstract": "ReAct interleaves reasoning traces with actions so a language model can gather information and adapt its plan. The approach links deliberate reasoning with external tool use.",
+    "doi": null,
+    "arxiv_id": "2210.03629",
+    "source_api": "Fixture",
+    "url": "https://arxiv.org/abs/2210.03629"
+  },
+  {
+    "title": "Survey of Hallucination in Natural Language Generation",
+    "authors": "Ji et al.",
+    "year": 2023,
+    "abstract": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge. Verification and grounding are common strategies for reducing unsupported generation.",
+    "doi": "10.1145/3571730",
+    "arxiv_id": null,
+    "source_api": "Fixture",
+    "url": "https://doi.org/10.1145/3571730"
+  },
+  {
+    "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "authors": "Reimers and Gurevych",
+    "year": 2019,
+    "abstract": "Sentence-BERT produces semantically meaningful sentence embeddings that can be compared efficiently. These embeddings support semantic search and similarity-based filtering.",
+    "doi": null,
+    "arxiv_id": "1908.10084",
+    "source_api": "Fixture",
+    "url": "https://arxiv.org/abs/1908.10084"
+  },
+  {
+    "title": "Blackboard Architecture for Control",
+    "authors": "Hayes-Roth",
+    "year": 1985,
+    "abstract": "A blackboard architecture coordinates heterogeneous knowledge sources through a shared data structure. Components contribute opportunistically without requiring direct peer-to-peer invocation.",
+    "doi": "10.1016/0004-3702(85)90063-3",
+    "arxiv_id": null,
+    "source_api": "Fixture",
+    "url": "https://doi.org/10.1016/0004-3702(85)90063-3"
+  }
+]

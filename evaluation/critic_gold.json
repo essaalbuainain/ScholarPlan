@@ -1,0 +1,22 @@
+[
+  {
+    "claim": "Independent verification can reduce unsupported output.",
+    "evidence": "Independent verification can reduce unsupported output by checking claims against evidence.",
+    "gold": "SUPPORTED"
+  },
+  {
+    "claim": "SQLite guarantees that language models never hallucinate.",
+    "evidence": "SQLite provides transactional storage for application state.",
+    "gold": "UNSUPPORTED"
+  },
+  {
+    "claim": "Blackboard systems allow components to coordinate through shared state.",
+    "evidence": "Blackboard systems allow components to coordinate through shared state.",
+    "gold": "SUPPORTED"
+  },
+  {
+    "claim": "arXiv is a commercial paid-only database.",
+    "evidence": "arXiv is an open-access repository of electronic preprints.",
+    "gold": "UNSUPPORTED"
+  }
+]

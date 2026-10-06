@@ -1,0 +1,30 @@
+{
+  "critic_precision": 1.0,
+  "critic_recall": 1.0,
+  "target_precision": 0.85,
+  "target_recall": 0.8,
+  "precision_pass": true,
+  "recall_pass": true,
+  "cases": [
+    {
+      "gold": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "claim": "Independent verification can reduce unsupported output."
+    },
+    {
+      "gold": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "claim": "SQLite guarantees that language models never hallucinate."
+    },
+    {
+      "gold": "SUPPORTED",
+      "predicted": "SUPPORTED",
+      "claim": "Blackboard systems allow components to coordinate through shared state."
+    },
+    {
+      "gold": "UNSUPPORTED",
+      "predicted": "UNSUPPORTED",
+      "claim": "arXiv is a commercial paid-only database."
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "run": {
+    "id": 1,
+    "goal": "How can LLM agents reduce hallucinations in academic research?",
+    "status": "completed",
+    "created_at": "2026-10-06 19:47:46",
+    "finished_at": "2026-10-06 19:47:46"
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_key": "scope",
+      "description": "Define the scope and key concepts for: How can LLM agents reduce hallucinations in academic research?.",
+      "status": "accepted",
+      "attempt": 0
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_key": "evidence",
+      "description": "Retrieve recent scholarly evidence relevant to: How can LLM agents reduce hallucinations in academic research?.",
+      "status": "accepted",
+      "attempt": 0
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_key": "synthesis",
+      "description": "Compare findings and limitations relevant to: How can LLM agents reduce hallucinations in academic research?.",
+      "status": "accepted",
+      "attempt": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_id": 1,
+      "stable_id": "doi:10.1145/3571730",
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "authors": "Ji et al.",
+      "year": 2023,
+      "abstract": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge. Verification and grounding are common strategies for reducing unsupported generation.",
+      "doi": "10.1145/3571730",
+      "arxiv_id": null,
+      "source_api": "Fixture",
+      "url": "https://doi.org/10.1145/3571730",
+      "relevance": 0.2583
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "doi:10.1145/3571730",
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "authors": "Ji et al.",
+      "year": 2023,
+      "abstract": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge. Verification and grounding are common strategies for reducing unsupported generation.",
+      "doi": "10.1145/3571730",
+      "arxiv_id": null,
+      "source_api": "Fixture",
+      "url": "https://doi.org/10.1145/3571730",
+      "relevance": 0.205
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "arxiv:2005.11401",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP",
+      "authors": "Lewis et al.",
+      "year": 2020,
+      "abstract": "Retrieval-augmented generation combines parametric language models with retrieved external evidence. Grounding generation in retrieved documents can improve factuality and knowledge-intensive task performance.",
+      "doi": null,
+      "arxiv_id": "2005.11401",
+      "source_api": "Fixture",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "relevance": 0.0
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "arxiv:2210.03629",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "authors": "Yao et al.",
+      "year": 2023,
+      "abstract": "ReAct interleaves reasoning traces with actions so a language model can gather information and adapt its plan. The approach links deliberate reasoning with external tool use.",
+      "doi": null,
+      "arxiv_id": "2210.03629",
+      "source_api": "Fixture",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "relevance": 0.0
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "arxiv:1908.10084",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "authors": "Reimers and Gurevych",
+      "year": 2019,
+      "abstract": "Sentence-BERT produces semantically meaningful sentence embeddings that can be compared efficiently. These embeddings support semantic search and similarity-based filtering.",
+      "doi": null,
+      "arxiv_id": "1908.10084",
+      "source_api": "Fixture",
+      "url": "https://arxiv.org/abs/1908.10084",
+      "relevance": 0.0
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "task_id": 2,
+      "stable_id": "doi:10.1016/0004-3702(85)90063-3",
+      "title": "Blackboard Architecture for Control",
+      "authors": "Hayes-Roth",
+      "year": 1985,
+      "abstract": "A blackboard architecture coordinates heterogeneous knowledge sources through a shared data structure. Components contribute opportunistically without requiring direct peer-to-peer invocation.",
+      "doi": "10.1016/0004-3702(85)90063-3",
+      "arxiv_id": null,
+      "source_api": "Fixture",
+      "url": "https://doi.org/10.1016/0004-3702(85)90063-3",
+      "relevance": 0.0
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "task_id": 3,
+      "stable_id": "doi:10.1145/3571730",
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "authors": "Ji et al.",
+      "year": 2023,
+      "abstract": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge. Verification and grounding are common strategies for reducing unsupported generation.",
+      "doi": "10.1145/3571730",
+      "arxiv_id": null,
+      "source_api": "Fixture",
+      "url": "https://doi.org/10.1145/3571730",
+      "relevance": 0.2583
+    }
+  ],
+  "claims": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 1,
+      "text": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge.",
+      "evidence": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge.",
+      "status": "accepted"
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_id": 1,
+      "source_id": 1,
+      "text": "Verification and grounding are common strategies for reducing unsupported generation.",
+      "evidence": "Verification and grounding are common strategies for reducing unsupported generation.",
+      "status": "accepted"
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 2,
+      "text": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge.",
+      "evidence": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge.",
+      "status": "accepted"
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 2,
+      "text": "Verification and grounding are common strategies for reducing unsupported generation.",
+      "evidence": "Verification and grounding are common strategies for reducing unsupported generation.",
+      "status": "accepted"
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 3,
+      "text": "Retrieval-augmented generation combines parametric language models with retrieved external evidence.",
+      "evidence": "Retrieval-augmented generation combines parametric language models with retrieved external evidence.",
+      "status": "accepted"
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 3,
+      "text": "Grounding generation in retrieved documents can improve factuality and knowledge-intensive task performance.",
+      "evidence": "Grounding generation in retrieved documents can improve factuality and knowledge-intensive task performance.",
+      "status": "accepted"
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 4,
+      "text": "ReAct interleaves reasoning traces with actions so a language model can gather information and adapt its plan.",
+      "evidence": "ReAct interleaves reasoning traces with actions so a language model can gather information and adapt its plan.",
+      "status": "accepted"
+    },
+    {
+      "id": 8,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 4,
+      "text": "The approach links deliberate reasoning with external tool use.",
+      "evidence": "The approach links deliberate reasoning with external tool use.",
+      "status": "accepted"
+    },
+    {
+      "id": 9,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 5,
+      "text": "Sentence-BERT produces semantically meaningful sentence embeddings that can be compared efficiently.",
+      "evidence": "Sentence-BERT produces semantically meaningful sentence embeddings that can be compared efficiently.",
+      "status": "accepted"
+    },
+    {
+      "id": 10,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 5,
+      "text": "These embeddings support semantic search and similarity-based filtering.",
+      "evidence": "These embeddings support semantic search and similarity-based filtering.",
+      "status": "accepted"
+    },
+    {
+      "id": 11,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 6,
+      "text": "A blackboard architecture coordinates heterogeneous knowledge sources through a shared data structure.",
+      "evidence": "A blackboard architecture coordinates heterogeneous knowledge sources through a shared data structure.",
+      "status": "accepted"
+    },
+    {
+      "id": 12,
+      "run_id": 1,
+      "task_id": 2,
+      "source_id": 6,
+      "text": "Components contribute opportunistically without requiring direct peer-to-peer invocation.",
+      "evidence": "Components contribute opportunistically without requiring direct peer-to-peer invocation.",
+      "status": "accepted"
+    },
+    {
+      "id": 13,
+      "run_id": 1,
+      "task_id": 3,
+      "source_id": 7,
+      "text": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge.",
+      "evidence": "Hallucination describes generated content that is unsupported by the provided source or real-world knowledge.",
+      "status": "accepted"
+    },
+    {
+      "id": 14,
+      "run_id": 1,
+      "task_id": 3,
+      "source_id": 7,
+      "text": "Verification and grounding are common strategies for reducing unsupported generation.",
+      "evidence": "Verification and grounding are common strategies for reducing unsupported generation.",
+      "status": "accepted"
+    }
+  ],
+  "verdicts": [
+    {
+      "id": 1,
+      "claim_id": 1,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 2,
+      "claim_id": 2,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 3,
+      "claim_id": 3,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 4,
+      "claim_id": 4,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 5,
+      "claim_id": 5,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 6,
+      "claim_id": 6,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 7,
+      "claim_id": 7,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 8,
+      "claim_id": 8,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 9,
+      "claim_id": 9,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 10,
+      "claim_id": 10,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 11,
+      "claim_id": 11,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 12,
+      "claim_id": 12,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 13,
+      "claim_id": 13,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 14,
+      "claim_id": 14,
+      "label": "SUPPORTED",
+      "confidence": 0.99,
+      "rationale": "High evidence overlap in deterministic verifier.",
+      "created_at": "2026-10-06 19:47:46"
+    }
+  ],
+  "feedback": [],
+  "messages": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "task_id": null,
+      "sender": "Planner",
+      "receiver": "Blackboard",
+      "performative": "inform",
+      "content_json": "{\"subtasks\": 3, \"goal\": \"How can LLM agents reduce hallucinations in academic research?\"}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "task_id": 1,
+      "sender": "Retriever",
+      "receiver": "Processor",
+      "performative": "inform",
+      "content_json": "{\"source_ids\": [1], \"unique_sources\": 1, \"relevance_gate\": 0.25}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "task_id": 1,
+      "sender": "Processor",
+      "receiver": "Critic",
+      "performative": "inform",
+      "content_json": "{\"claim_ids\": [1, 2]}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "task_id": 1,
+      "sender": "Critic",
+      "receiver": "Planner",
+      "performative": "confirm",
+      "content_json": "{\"accepted\": 2, \"rejected\": 0}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "task_id": 2,
+      "sender": "Retriever",
+      "receiver": "Processor",
+      "performative": "inform",
+      "content_json": "{\"source_ids\": [2, 3, 4, 5, 6], \"unique_sources\": 5, \"relevance_gate\": 0.25}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "task_id": 2,
+      "sender": "Processor",
+      "receiver": "Critic",
+      "performative": "inform",
+      "content_json": "{\"claim_ids\": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "task_id": 2,
+      "sender": "Critic",
+      "receiver": "Planner",
+      "performative": "confirm",
+      "content_json": "{\"accepted\": 10, \"rejected\": 0}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 8,
+      "run_id": 1,
+      "task_id": 3,
+      "sender": "Retriever",
+      "receiver": "Processor",
+      "performative": "inform",
+      "content_json": "{\"source_ids\": [7], \"unique_sources\": 1, \"relevance_gate\": 0.25}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 9,
+      "run_id": 1,
+      "task_id": 3,
+      "sender": "Processor",
+      "receiver": "Critic",
+      "performative": "inform",
+      "content_json": "{\"claim_ids\": [13, 14]}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 10,
+      "run_id": 1,
+      "task_id": 3,
+      "sender": "Critic",
+      "receiver": "Planner",
+      "performative": "confirm",
+      "content_json": "{\"accepted\": 2, \"rejected\": 0}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 11,
+      "run_id": 1,
+      "task_id": null,
+      "sender": "Archivist",
+      "receiver": "User",
+      "performative": "inform",
+      "content_json": "{\"report\": \"outputs/report.md\", \"bibliography\": \"outputs/bibliography.bib\", \"trace\": \"outputs/execution_trace.json\", \"accepted_claims\": 14, \"published_claims\": 6}",
+      "created_at": "2026-10-06 19:47:46"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "run_id": 1,
+      "agent": "Planner",
+      "event_type": "plan_created",
+      "payload_json": "{\"task_ids\": [1, 2, 3]}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 2,
+      "run_id": 1,
+      "agent": "Retriever",
+      "event_type": "retrieval_completed",
+      "payload_json": "{\"task_id\": 1, \"source_count\": 1, \"relevance_gate\": 0.25}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 3,
+      "run_id": 1,
+      "agent": "Processor",
+      "event_type": "processing_completed",
+      "payload_json": "{\"task_id\": 1, \"claim_count\": 2}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 4,
+      "run_id": 1,
+      "agent": "Critic",
+      "event_type": "verification_completed",
+      "payload_json": "{\"task_id\": 1, \"accepted\": 2, \"rejected\": 0}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 5,
+      "run_id": 1,
+      "agent": "Retriever",
+      "event_type": "retrieval_completed",
+      "payload_json": "{\"task_id\": 2, \"source_count\": 5, \"relevance_gate\": 0.25}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 6,
+      "run_id": 1,
+      "agent": "Processor",
+      "event_type": "processing_completed",
+      "payload_json": "{\"task_id\": 2, \"claim_count\": 10}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 7,
+      "run_id": 1,
+      "agent": "Critic",
+      "event_type": "verification_completed",
+      "payload_json": "{\"task_id\": 2, \"accepted\": 10, \"rejected\": 0}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 8,
+      "run_id": 1,
+      "agent": "Retriever",
+      "event_type": "retrieval_completed",
+      "payload_json": "{\"task_id\": 3, \"source_count\": 1, \"relevance_gate\": 0.25}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 9,
+      "run_id": 1,
+      "agent": "Processor",
+      "event_type": "processing_completed",
+      "payload_json": "{\"task_id\": 3, \"claim_count\": 2}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 10,
+      "run_id": 1,
+      "agent": "Critic",
+      "event_type": "verification_completed",
+      "payload_json": "{\"task_id\": 3, \"accepted\": 2, \"rejected\": 0}",
+      "created_at": "2026-10-06 19:47:46"
+    },
+    {
+      "id": 11,
+      "run_id": 1,
+      "agent": "Archivist",
+      "event_type": "export_completed",
+      "payload_json": "{\"output_dir\": \"outputs\", \"accepted_claims\": 14, \"published_claims\": 6}",
+      "created_at": "2026-10-06 19:47:46"
+    }
+  ]
+}

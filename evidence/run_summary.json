@@ -1,0 +1,16 @@
+{
+  "pytest_return_code": 0,
+  "pytest_output": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                  [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m7 passed\u001b[0m\u001b[32m in 0.11s\u001b[0m\u001b[0m",
+  "demo_return_code": 0,
+  "demo_output": "ScholarPlan run completed\nRun ID: 1\nTasks: 3\nSources: 15\nVerified claims: 30\nOutput directory: /mnt/data/ScholarPlan/outputs",
+  "evaluation_return_code": 0,
+  "evaluation_output": "{\n  \"critic_precision\": 1.0,\n  \"critic_recall\": 1.0,\n  \"target_precision\": 0.85,\n  \"target_recall\": 0.8,\n  \"precision_pass\": true,\n  \"recall_pass\": true,\n  \"cases\": [\n    {\n      \"gold\": \"SUPPORTED\",\n      \"predicted\": \"SUPPORTED\",\n      \"claim\": \"Independent verification can reduce unsupported output.\"\n    },\n    {\n      \"gold\": \"UNSUPPORTED\",\n      \"predicted\": \"UNSUPPORTED\",\n      \"claim\": \"SQLite guarantees that language models never hallucinate.\"\n    },\n    {\n      \"gold\": \"SUPPORTED\",\n      \"predicted\": \"SUPPORTED\",\n      \"claim\": \"Blackboard systems allow components to coordinate through shared state.\"\n    },\n    {\n      \"gold\": \"UNSUPPORTED\",\n      \"predicted\": \"UNSUPPORTED\",\n      \"claim\": \"arXiv is a commercial paid-only database.\"\n    }\n  ]\n}",
+  "demo_counts": {
+    "tasks": 3,
+    "sources": 15,
+    "claims": 30,
+    "verdicts": 30,
+    "messages": 10,
+    "events": 10
+  }
+}
