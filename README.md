@@ -83,10 +83,9 @@ Outputs:
 ## Live scholarly retrieval
 
 ```bash
-python -m scholarplan.main "What techniques reduce hallucination in LLM agents?" --mode live --provider mock
+python -m scholarplan.main "What techniques reduce hallucination in LLM-based academic research agents?" --mode live --provider lmstudio --db scholarplan_full_live.db --output outputs_full_live
 ```
-
-This queries OpenAlex, Crossref and arXiv.
+This is the configuration used for the final live demonstration. It uses Qwen2.5-3B-Instruct through LM Studio together with live retrieval from OpenAlex, Crossref and arXiv.
 
 ## Live Azure LLM mode
 
